@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="NOTICE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/selenium-java-3.7.0/NOTICE" />
+      <root url="file://$USER_HOME$/Downloads/selenium-java-3.7.0/LICENSE" />
+      <root url="file://$USER_HOME$/Downloads/selenium-java-3.7.0/CHANGELOG" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-3.7.0/CHANGELOG" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-3.7.0/LICENSE" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-3.7.0/NOTICE" recursive="false" />
+  </library>
+</component>
