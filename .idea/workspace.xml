@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f48c1171-426e-4cab-ac6c-04e0e484a235" name="Default Changelist" comment="" />
+    <list default="true" id="f48c1171-426e-4cab-ac6c-04e0e484a235" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinanceAppUIAutomation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinanceAppUIAutomation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinanceAppUIAutomation/BaseTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinanceAppUIAutomation/BaseTestCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinanceAppUIAutomation/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinanceAppUIAutomation/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinanceAppUIAutomation/ValidLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinanceAppUIAutomation/ValidLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomepageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomepageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValidLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidLogin.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +32,13 @@
     <session id="-490667642">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,12 +58,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="1040" />
+          <entry key="java" value="1137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1040" />
+          <entry key="JAVA" value="1137" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -59,11 +71,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="316">
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BaseTestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="221">
+              <caret line="31" column="107" selection-start-line="31" selection-start-column="107" selection-end-line="31" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HomepageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="165">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ValidLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="288">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,21 +128,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BaseTestCases.java" />
-        <option value="$PROJECT_DIR$/src/ValidLogin.java" />
         <option value="$PROJECT_DIR$/src/UITesting.java" />
         <option value="$PROJECT_DIR$/src/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/BaseTestCases.java" />
+        <option value="$PROJECT_DIR$/src/ValidLogin.java" />
         <option value="$PROJECT_DIR$/src/HomepageTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="339" />
+    <option name="x" value="171" />
     <option name="y" value="23" />
-    <option name="width" value="1048" />
+    <option name="width" value="1216" />
     <option name="height" value="813" />
   </component>
   <component name="ProjectView">
@@ -138,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -157,13 +171,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563546801815" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565870814648" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32528734" />
@@ -181,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginPage">
+  <component name="RunManager" selected="JUnit.HomepageTest">
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LoginPage" />
       <module name="FinanceAppUIAutomation" />
@@ -205,15 +220,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinanceAppUIAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidLogin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.LoginPage" />
       <item itemvalue="JUnit.LoginPage" />
       <item itemvalue="JUnit.HomepageTest" />
+      <item itemvalue="JUnit.ValidLogin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginPage" />
         <item itemvalue="JUnit.HomepageTest" />
+        <item itemvalue="JUnit.ValidLogin" />
+        <item itemvalue="JUnit.LoginPage" />
         <item itemvalue="Application.LoginPage" />
       </list>
     </recent_temporary>
@@ -232,42 +257,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomepageTest - 2019.07.16 at 14h 29m 52s.xml">
+    <history-entry file="HomepageTest - 2019.08.15 at 12h 37m 36s.xml">
       <configuration name="HomepageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomepageTest - 2019.07.16 at 14h 31m 20s.xml">
+    <history-entry file="HomepageTest - 2019.08.15 at 12h 45m 03s.xml">
       <configuration name="HomepageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomepageTest - 2019.07.16 at 15h 23m 54s.xml">
+    <history-entry file="HomepageTest - 2019.08.15 at 12h 46m 03s.xml">
       <configuration name="HomepageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomepageTest - 2019.07.16 at 15h 27m 01s.xml">
+    <history-entry file="HomepageTest - 2019.08.15 at 12h 47m 28s.xml">
       <configuration name="HomepageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginPage - 2019.07.16 at 15h 27m 53s.xml">
-      <configuration name="LoginPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HomepageTest - 2019.07.19 at 14h 38m 14s.xml">
+    <history-entry file="HomepageTest - 2019.08.15 at 12h 48m 29s.xml">
       <configuration name="HomepageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomepageTest - 2019.07.19 at 14h 38m 51s.xml">
+    <history-entry file="ValidLogin - 2019.08.15 at 12h 50m 14s.xml">
+      <configuration name="ValidLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomepageTest - 2019.08.15 at 12h 53m 52s.xml">
       <configuration name="HomepageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomepageTest - 2019.07.19 at 14h 40m 04s.xml">
+    <history-entry file="HomepageTest - 2019.08.15 at 13h 01m 50s.xml">
       <configuration name="HomepageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomepageTest - 2019.07.19 at 15h 33m 00s.xml">
+    <history-entry file="HomepageTest - 2019.08.15 at 13h 04m 54s.xml">
       <configuration name="HomepageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginPage - 2019.07.19 at 15h 33m 53s.xml">
-      <configuration name="LoginPage" configurationId="JUnit" />
+    <history-entry file="HomepageTest - 2019.08.15 at 13h 06m 15s.xml">
+      <configuration name="HomepageTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="339" y="23" width="1048" height="813" extended-state="0" />
+    <frame x="171" y="23" width="1216" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20675944" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18398637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -276,7 +301,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37012112" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36893204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -331,20 +356,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ValidLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomepageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="316">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -353,18 +368,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaseTestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="221">
+          <caret line="31" column="107" selection-start-line="31" selection-start-column="107" selection-end-line="31" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/ValidLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="288">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomepageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

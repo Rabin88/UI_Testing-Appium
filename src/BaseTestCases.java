@@ -21,7 +21,7 @@ public class BaseTestCases {
         DesiredCapabilities DC = new DesiredCapabilities();
         DC.setCapability(MobileCapabilityType.AUTOMATION_NAME,"XCUITest");
         DC.setCapability(MobileCapabilityType.PLATFORM_NAME,"iOS");
-        DC.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.2");
+        DC.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.4");
         DC.setCapability(MobileCapabilityType.DEVICE_NAME,"iPhone X");
         DC.setCapability(MobileCapabilityType.APP,"/Users/rabinpun/Library/Developer/Xcode/DerivedData/Finance-dipqkrfyzgbuiqbzsvknusqqqxjh/Build/Products/Debug-iphonesimulator/Finance.app");
 
@@ -29,11 +29,11 @@ public class BaseTestCases {
         driver = new IOSDriver(url,DC);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        MobileElement username = (MobileElement) driver.findElement(By.xpath("//XCUIElementTypeOther[1]"));
-        username.sendKeys("rabin");
+        MobileElement username = (MobileElement) driver.findElement(By.xpath("//XCUIElementTypeTextField[1]"));
+        username.sendKeys("test");
 
         MobileElement password = (MobileElement) driver.findElement(By.xpath("//XCUIElementTypeSecureTextField[1]"));
-        password.sendKeys("test");
+        password.sendKeys("test123");
 
         driver.findElementByAccessibilityId("LOGIN").click();
 

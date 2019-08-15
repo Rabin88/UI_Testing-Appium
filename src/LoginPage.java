@@ -20,7 +20,7 @@ public class LoginPage {
         DesiredCapabilities DC = new DesiredCapabilities();
         DC.setCapability(MobileCapabilityType.AUTOMATION_NAME,"XCUITest");
         DC.setCapability(MobileCapabilityType.PLATFORM_NAME,"iOS");
-        DC.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.2");
+        DC.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.4");
         DC.setCapability(MobileCapabilityType.DEVICE_NAME,"iPhone X");
         DC.setCapability(MobileCapabilityType.APP,"/Users/rabinpun/Library/Developer/Xcode/DerivedData/Finance-dipqkrfyzgbuiqbzsvknusqqqxjh/Build/Products/Debug-iphonesimulator/Finance.app");
 

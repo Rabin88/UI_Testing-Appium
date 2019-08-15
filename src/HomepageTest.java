@@ -7,31 +7,23 @@ public class HomepageTest extends BaseTestCases {
     @Test
     public void DashboardNavigation() throws InterruptedException {
 
-        MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Go to Account Page");
+        MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("View Transactions");
         el1.click();
+        
+        MobileElement el2 = (MobileElement) driver.findElementByXPath("(//XCUIElementTypeOther[@name=\"Dismiss All\"])[1]");
+        el2.click();
 
-//        MobileElement el2 = (MobileElement) driver.findElementByAccessibilityId("Dashboard, tab, 1 of 3");
-//        el2.click();
-
-//        MobileElement el3 = (MobileElement) driver.findElementByAccessibilityId("Go to Account Graphs");
-//        el3.click();
-//
-//        MobileElement el4 = (MobileElement) driver.findElementByAccessibilityId("Dashboard, tab, 1 of 3");
-//        el4.click();
-//
-//        MobileElement el5 = (MobileElement) driver.findElementByAccessibilityId("Go to Account Set Budgets");
-//        el5.click();
-//
-//        MobileElement el6 = (MobileElement) driver.findElementByAccessibilityId("header-back");
-//        el6.click();
-//
-//        Thread.sleep(5000);
-    }
-
-    @Test
-    public void DashboardGraphPage() throws InterruptedException {
-
-        MobileElement el3 = (MobileElement) driver.findElementByAccessibilityId("Go to Account Graphs");
+        MobileElement el3 = (MobileElement) driver.findElementByAccessibilityId("Forecast, tab, 4 of 5");
         el3.click();
+        Thread.sleep(3000);
+
+        MobileElement el4 = (MobileElement) driver.findElementByAccessibilityId("Settings, tab, 5 of 5");
+        el4.click();
+        Thread.sleep(3000);
+
+        MobileElement el5 = (MobileElement) driver.findElementByAccessibilityId("LOGOUT");
+        el5.click();
+        Thread.sleep(3000);
     }
+
 }
