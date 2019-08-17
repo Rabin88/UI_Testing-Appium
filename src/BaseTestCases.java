@@ -35,7 +35,7 @@ public class BaseTestCases {
         MobileElement password = (MobileElement) driver.findElement(By.xpath("//XCUIElementTypeSecureTextField[1]"));
         password.sendKeys("test123");
 
-        driver.findElementByAccessibilityId("LOGIN").click();
+        driver.findElementByAccessibilityId("\uF090 LOGIN").click();
 
         Thread.sleep(4000);
 

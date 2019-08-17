@@ -43,7 +43,13 @@ public class ValidLogin {
         MobileElement password = (MobileElement) driver.findElement(By.xpath("//XCUIElementTypeSecureTextField[1]"));
         password.sendKeys("test123");
 
-        driver.findElementByAccessibilityId("LOGIN").click();
+        driver.findElementByAccessibilityId("\uF090 LOGIN").click();
+
+        MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Connect to Bank");
+        el1.click();
+
+        MobileElement el2 = (MobileElement) driver.findElementByAccessibilityId("View Transactions");
+        el2.click();
 
 
         Thread.sleep(4000);

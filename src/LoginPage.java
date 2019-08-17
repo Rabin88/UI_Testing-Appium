@@ -37,7 +37,7 @@ public class LoginPage {
     // Test for Blank Login
     @Test
     public void BlankLogin() throws InterruptedException {
-        driver.findElementByAccessibilityId("LOGIN").click();
+        driver.findElementByAccessibilityId("\uF090 LOGIN").click();
 
         Thread.sleep(5000);
     }
