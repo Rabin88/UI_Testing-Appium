@@ -1,3 +1,7 @@
+/**
+ * This ValidLogin class is for testing with valid login details on login screen.
+ */
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -37,17 +41,22 @@ public class ValidLogin {
     @Test
     public void ValidLogin() throws InterruptedException {
 
+        // checking valid username
         MobileElement username = (MobileElement) driver.findElement(By.xpath("//XCUIElementTypeTextField[1]"));
         username.sendKeys("test");
 
+        // checking valid password
         MobileElement password = (MobileElement) driver.findElement(By.xpath("//XCUIElementTypeSecureTextField[1]"));
         password.sendKeys("test123");
 
+        // checking login button
         driver.findElementByAccessibilityId("\uF090 LOGIN").click();
 
-        MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Connect to Bank");
+        // checking "Get Transaction Data" button on Bank Screen
+        MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Get Transaction Data");
         el1.click();
 
+        // checking "View Transactions" button on Bank Screen
         MobileElement el2 = (MobileElement) driver.findElementByAccessibilityId("View Transactions");
         el2.click();
 

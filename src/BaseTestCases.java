@@ -1,3 +1,10 @@
+/**
+ * This is BaseTestCases class for the UI automation tests using Appium tool. This is a base test case which can by used by other classes.
+ * Before running the test cases, it need to be set up providing Desired Capabilities which are automation name,
+ * platform name, platform version, device name and app path.
+ * When user enter valid username and password the test case will pass otherwise it will fail.
+ */
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;

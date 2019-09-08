@@ -1,3 +1,8 @@
+
+/**
+ * This LoginPage class is for testing Login and signup Screen button.
+ */
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -8,6 +13,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+
 import java.util.concurrent.TimeUnit;
 
 public class LoginPage {
@@ -55,21 +61,5 @@ public class LoginPage {
         Thread.sleep(5000);
     }
 
-
-    //Test for valid login
-
-//    @Test
-//    public void ValidLogin() throws InterruptedException {
-//
-//        MobileElement username = (MobileElement) driver.findElement(By.xpath("//XCUIElementTypeOther[1]"));
-//        username.sendKeys("rabin");
-//
-//        MobileElement password = (MobileElement) driver.findElement(By.xpath("//XCUIElementTypeSecureTextField[1]"));
-//        password.sendKeys("test");
-//
-//        driver.findElementByAccessibilityId("LOGIN").click();
-//
-//        Thread.sleep(4000);
-//    }
 
 }
