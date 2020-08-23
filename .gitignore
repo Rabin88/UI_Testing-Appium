@@ -1,4 +1,5 @@
 # Unused files
+.DS_Store
 .idea/
 out/production/FinanceAppUIAutomation/
 FinanceAppUIAutomation.iml
